@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+author {
+    display: none;
+}
+.tab {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+    border-style: none;
+    position: fixed;
+    background-color: azure;
+    border-style: solid;
+    padding:10px;
+}
+.tab button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 15px;
+    background-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tab button:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tab button:focus {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#AboutMe h1 {
+    padding: 20px 40px 20px 40px;
+    font-size: 60px;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+
+#AboutMe p {
+    padding: 20px 40px 20px 40px;
+    font-size: 30px;
+    line-height: 35px;
+    word-spacing: 5px;
+    width: 60%;
+    float: left;
+    
+}
+#AboutMe img{
+    float: right;
+    width: 20%;
+    padding: 20px 40px 20px 40px;
+    margin-right: 10%;
+}
+div {
+    display: block;
+    overflow: auto;
+}
+.section{
+    background-color: azure;
+    border-style: solid;
+}
+p {
+    font-size: 25px;
+}
+li {
+    font-size: 20px;
+}
+#Work h1 {
+    padding: 0px 10px 10px 20px;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 5%;
+}
+#Work h2{
+    padding: 0px 10px 10px 20px;
+    font-size: 45px;
+    font-style: italic;
+    margin:5px;
+}
+#Work h3{
+    padding: 0px 10px 10px 20px;
+    font-size: 30px;
+    margin: 5px;
+}
+#Work img {
+    float: right;
+    width: 60%;
+    margin-right: 10%;
+}
+.container {
+    padding: 0px 10px 10px 20px;
+}
+.text {
+    width: 60%;
+    float: left;
+}
+.image {
+    width: 40%;
+    float: left;
+}
+#Contact h1 {
+    padding: 0px 10px 10px 20px;
+    font-size: 60px;
+    text-align: center;
+}
+.form {
+    text-align: center;
+    padding: 0px 10px 10px 20px;
+}
+#message {
+    text-align: left;
+}
+h4 {
+    font-size: 25px;
+    margin: 5px;
+    padding: 0px 10px 10px 20px;
+}
+h5 {
+    font-size: 20px;
+    margin: 5px;
+    padding: 0px 10px 10px 20px;
+}
+h6 {
+    font-size: 20px;
+    font-style: italic;
+    margin: 5px;
+    padding: 0px 10px 10px 20px;
+}
